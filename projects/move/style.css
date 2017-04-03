@@ -1,0 +1,221 @@
+html, body {
+  margin: 0;
+  background-color: #222;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background-image: url("http://www.airbock.com/wp-content/uploads/2015/03/Freestyle-BMXRaceing.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.main h1 {
+  font-size: 150px;
+  margin: auto;
+}
+
+ .main p {
+        color: #111;
+        margin: 0 0 20px 0;
+        font-size: 18px;
+      }
+
+.main a {
+  position: absolute;
+}
+
+.main .btn {
+  background-color: #333;
+  border: 0px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+}
+
+a.btn:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+  
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: 1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background-image: url("https://c2.staticflickr.com/4/3751/11127929944_7d7a3eb074_b.jpg");
+  background-size: cover;
+}
+
+.feature h1
+{
+  color: #000;
+  font-size: 4em;
+  margin: 0;
+  padding: 50px 0 0;
+}
+  
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+}
+
+/* Supporting2 */
+.supporting2 {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: 1c1c1c;
+}
+
+.supporting2 .col {
+  /* float: left; */
+  width: 28%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.supporting2 h1,
+.supporting2 h2 {
+  color: #ffa800;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting2 p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting2 .btn {
+  background-color: #333;
+  border: 0px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  /* background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block; */
+}
+
+/* Footer */
+.footer {
+  height: 500px;
+  background-image: url("http://www.slickwillies.co.uk/blog/wp-content/uploads/2015/09/DSC_5285dfsdf-2.jpg");
+  background-size: cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footer .btn {
+  background-color: #333;
+  border: 0px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer a.btn:hover {
+  color: #fff;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}

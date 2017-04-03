@@ -1,0 +1,203 @@
+html, body {
+	background-color: black;
+	color: white;
+	font-family: 'Mirza', cursive;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.mono {
+  font-family: 'Source Code Pro' ;
+  margin: 10px 0 0 10px;
+  color: #fff;
+}
+
+#logo:hover {
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+}
+
+#header h1 {
+	font-size: 45px;
+	text-align: center;
+	margin-left: -120px;
+}
+
+#pomo-modal {
+	margin: 60px 0 0 100px;
+	position: relative;
+	z-index: 1;
+	cursor: help;
+}
+
+#menu-dots-md {
+	margin-top: 41px;
+	margin-left: -100px;
+	position: relative;
+	z-index: 1;
+	cursor: alias;
+}
+
+#myModal {
+	color: black;
+}
+	
+	.modal-body {
+		margin-left: 70px;
+	}
+
+	#auto-reset {
+		margin-top: -25px;
+	}
+
+	#auto-reset-btn {
+		height: 20px;
+		width: 100px;
+		background-color: black;
+		border-radius: 5px;
+	}
+
+	.options-toggle {
+		width: 48px;
+		height: 18px;
+		position: absolute;
+		z-index: 1;
+		background-color: red;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		margin: 1px 0 0 1px;
+		cursor: pointer;
+	}
+
+	.option-value {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.toggle-off {
+		margin-left: 52px!important;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+
+#pomoModal {
+	color: black;
+	font-size: 18px!important;
+}
+
+/*Time Displays*/
+	#chart {
+		width: 900px;
+		position: absolute;
+		z-index: 1;
+		margin: -325px 0 0 120px;
+
+	}
+
+	#work-time-display {
+		text-align: center;
+		font-size: 100px;
+		margin-top: 100px;
+	}
+
+	#break-time-display {
+		text-align: center;
+		font-size: 50px;
+		margin-top: -25px;
+	}
+
+#contols {
+	margin-top: 50px;
+}
+
+	.time-set {
+		text-align: center;
+		cursor: pointer;
+	}
+
+	/*break button style*/
+		#break-time-btn {
+			width: 250px;
+			position: relative;
+			z-index: 1;
+			margin-left: -75px;
+		}
+
+		#break-value {
+			font-size: 100px;
+			margin-top: -25px;
+		}
+
+		#break-up {
+			width: 50px;
+			height: 50px;
+      margin-top: 7px;
+		}
+			#break-up span {
+        padding: 15px 0;
+			}
+
+		#break-down {
+			width: 50px;
+			height: 50px;
+		}
+			#break-down span {
+				padding: 15px 0;
+			}
+
+	/*start-stop button style*/
+		#start-stop-btn {
+			width: 100px;
+			margin-left: 60px;
+		}
+
+		#start-stop-value {
+			font-size: 125px;
+			margin-top: -50px;
+		}
+
+	/*work button style*/
+		#work-time-btn {
+			width: 325px;
+		}
+
+		#work-value {
+			font-size: 100px;
+			margin-top: -25px;
+		}
+
+		#work-up {
+			width: 50px;
+			height: 50px;
+      margin-top: 7px;
+		}
+			#work-up span {
+        padding: 15px 0;
+        width: 50px;
+        height: 50px;
+			}
+
+		#work-down {
+			width: 50px;
+			height: 50px;
+		}
+			#work-down span {
+        padding: 15px;
+        width: 50px;
+        height: 50px;
+			}
+
+#reset {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 125px;
+	cursor: no-drop;
+	position: relative;
+	z-index: 5
+}
