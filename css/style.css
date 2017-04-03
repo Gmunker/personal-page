@@ -32,14 +32,19 @@ body {
 
 #menu {
   list-style: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #menu li {
-  display: inline-block;
+  display: flex;
   margin-top: 55px;
-  padding: 10px;
+  margin-right: 5px;
+  /*padding: 10px;*/
   transition:all 0.9s;
+}
+
+#contactBtn {
+  margin-left: 25px;
 }
 
 #menu li a {
@@ -61,7 +66,7 @@ body {
 }
 
 #intro {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 #intro h2 {
@@ -87,12 +92,12 @@ body {
 }
 
 .social-button {
-  background-color: #deedfd;
-  color: #000;
-  font-size: 25px;
-  border: 1px solid black;
+  /*background-color: #deedfd;
+  color: #000;*/
+  font-size: 40px;
+  /*border: 1px solid black;
   margin: 0 1px 0 1px;
-  width: 220px;
+  width: 220px;*/
 }
 
 #main {
@@ -110,14 +115,12 @@ body {
   margin-top: 1100px;
   background-color: #B1A289;
   width: 100%;
-  box-shadow: 3px 3px 20px #000;
   position: relative;
   overflow: auto;
-  border-radius: 5px;
 }
 
 #about img {
-  height: 500px;
+  height: 450px;
 }
 
 #about p {
@@ -163,7 +166,7 @@ body {
 }
 
 #contact form {
-  margin: 50px 0 0 80px;
+  margin: 50px 0 0 0px;
 }
 
 #description {
@@ -182,4 +185,9 @@ body {
   font-size: 25px;
   text-align: right;
   color: #B1A289;
+}
+
+#contact form input, textarea, button {
+  border-radius: 0!important;
+  margin-top: 5px;
 }
