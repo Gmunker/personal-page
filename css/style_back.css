@@ -1,0 +1,193 @@
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1444312645910-ffa973656eba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a1ce215ba6023f63c4e0ab79be1f7bbe');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.mono {
+  font-family: 'Source Code Pro' ;
+}
+
+#header {
+  height: 600px;
+  width: 100%;
+  background-color: rgba(142,167,197,0.8);
+  position: fixed;
+  transition:all 1s;
+  z-index: 10;
+}
+
+.mobile-menu {
+  font-size: 20px!important;
+  margin-top: -60px!important;
+}
+
+.tablet-menu {
+  font-size: 20px!important;
+  margin-top: -60px!important;
+}
+
+#menu {
+  list-style: none;
+  font-size: 25px;
+}
+
+#menu li {
+  display: flex;
+  margin-top: 55px;
+  margin-right: 5px;
+  /*padding: 10px;*/
+  transition:all 0.9s;
+}
+
+#contactBtn {
+  margin-left: 25px;
+}
+
+#menu li a {
+  color: #000;
+}
+
+#menu li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu li a:focus {
+  text-decoration: none;
+}
+
+.active-menu-btn {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#intro {
+  margin-top: 75px;
+}
+
+#intro h2 {
+  font-size: 50px;
+}
+
+#intro h4{
+  font-size: 30px
+}
+
+#top-social img {
+  width: 100px;
+}
+
+#top-social-links {
+  position: relative;
+  margin: 0 0 0 0px;
+}
+
+.social-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-button {
+  /*background-color: #deedfd;
+  color: #000;*/
+  font-size: 40px;
+  /*border: 1px solid black;
+  margin: 0 1px 0 1px;
+  width: 220px;*/
+}
+
+#main {
+  position: absolute;
+  width: 100%;
+}
+
+#aboutLink {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#about {
+  padding: 80px 0px;
+  margin-top: 1100px;
+  background-color: #B1A289;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
+
+#about img {
+  height: 450px;
+}
+
+#about p {
+  font-size: 20px;
+  color: #000;
+}
+
+#portfolio {
+  margin-top: 300px;
+  background-color: #445364;
+  width: 100%;
+  box-shadow: 3px 3px 20px #000;
+  border-radius: 5px;
+}
+
+.thumb {
+	margin: 5px 0;
+	padding: 20px 0;
+	width: 100%;
+	height: 200px;
+}
+
+
+#portfolio .container .Row img {
+	width: 90%;
+	margin-left: 4px;
+	position: absolute;
+	z-index: 1;
+	padding: 0;
+}
+
+#portfolio .container .thumb img:hover {
+	width: 120%;
+	position: relative;
+	z-index: 2;
+	margin-left: -35px;
+	margin-top: -20px;
+}
+
+#contact {
+  background-color: rgba(222,237,253, 0.7);
+  margin-top: 200px;
+}
+
+#contact form {
+  margin: 50px 0 0 0px;
+}
+
+#description {
+  height: 200px;
+}
+
+#foot {
+  text-align: center;
+}
+
+#foot small {
+  margin: 0;
+}
+
+.bigicon {
+  font-size: 25px;
+  text-align: right;
+  color: #B1A289;
+}
+
+#contact form input, textarea, button {
+  border-radius: 0!important;
+  margin-top: 5px;
+}
