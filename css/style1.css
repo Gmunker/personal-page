@@ -1,15 +1,15 @@
 body{background-image:url('../images/rocks.jpg');background-size:cover;background-repeat:no-repeat;background-attachment:fixed;position:relative;}
 .mono{font-family:'monospace';}
 
-#header{height:600px;width:100%;background-color:rgba(142,167,197,0.8);position:fixed;transition:all 1s;z-index:10;}
+#header{height: 150px;width:100%;background-color:rgba(142,167,197,0.8);position:fixed;transition:all 1s;z-index:10;}
 
 
 #menu{list-style:none;font-size:25px;}
 #menu li{display:flex;margin-top:55px;margin-right:5px;transition:all 0.9s;}
 #contactBtn{margin-left:25px;}
-#menu li a{color:#000;}
-#menu li a:hover{text-decoration:none;font-weight:bold;}
-#menu li a:focus{text-decoration:none;}
+#menu button a{color:#000;}
+#menu button a:hover{text-decoration:none;font-weight:bold;}
+#menu button a:focus{text-decoration:none;}
 .active-menu-btn{text-decoration:none;font-weight:bold;}
 
 #intro{margin-top:100px;}
