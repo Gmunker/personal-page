@@ -47,12 +47,12 @@ function btnSelector(id) {
       scrollEffect(Math.round(portfolio.offsetTop - 150));
     break;
     case "contactBtn":
-      scrollEffect(Math.round(contact.offsetTop - 150));
+      scrollEffect(contact.offsetTop);
     break;
   }
 }
 
-let speed = 10;
+let speed = 5;
 let scroller = null;
 
 function scrollEffect(target) {
